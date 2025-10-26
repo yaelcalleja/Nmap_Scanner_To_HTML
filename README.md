@@ -1,12 +1,31 @@
-Automated nmap services scanner.
+# NMAP SCANNER TO HTML
 
-This script will execute the scann services of nmap and genarate a HTML file.
+A bash script to automate the nmap services scanning and transform the XML exit
+to a clean and easy to read HTML report, showing only the open ports and they services
 
-The HTML file will have all the filtered information of the scann, but to execute the script nicely
-you have to specify the IP direction to scann and a file name to put all the raw information.
+## The problem to solve:
+
+Nmap is a usefull tool with the power to scann entire networks, but when the info comes
+out, is dificult to read and have some details that usually we dont use to much.
+
+There's when this tool comes to help, giving the result of the scann on a more user friendly
+way.
+
+## Dependendies
+
+-`nmap`
+-`xmlsarlet` (Or any tool for xml files)
+-`bash`
 
 
-To use it:
+## Instalation
+
+```Bash
+git clone https://github.com/yaelcalleja/Nmap_Scanner_To_HTML
+cd Nmap_Scanner_To_HTML
+```
+
+## To use it:
 
 Give permition to the script to execute
 
@@ -14,22 +33,16 @@ Give permition to the script to execute
 chmod 755 nmap-parser.sh
 ```
 
-Execute:
+Simply execute the script with the IP to scann an a file name for the raw data.
 
-```bash
+```Bash
 ./nmap-parser.sh <IP_TO_SCANN> <raw_file.raw>`
 ```
 
-When the scann finished, the script it's going to create an html report with all the most 
-important data of the scann.
-
-
-Then the output will answer you if you wan to open the file with firefox.
-In case you say yes the page made by firefox can look like this:
+## Example of a report
 
 ![Html Report Image](/assets/htmlreport.png)
 
-If you choose no, the script stops and two files are created on the carpet, one with the 
-raw data and the other one with the html report.
+
 
 Feel free to use it :)
