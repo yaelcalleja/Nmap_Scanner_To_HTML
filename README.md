@@ -20,9 +20,16 @@ Execute:
 ./nmap-parser.sh <IP_TO_SCANN> <raw_file.raw>`
 ```
 
+When the scann finished, the script it's going to create an html report with all the most 
+important data of the scann.
+
+
 Then the output will answer you if you wan to open the file with firefox.
 In case you say yes the page made by firefox can look like this:
 
 ![Html Report Image](/assets/htmlreport.png)
+
+If you choose no, the script stops and two files are created on the carpet, one with the 
+raw data and the other one with the html report.
 
 Feel free to use it :)
