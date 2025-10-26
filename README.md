@@ -10,13 +10,14 @@ To use it:
 
 Give permition to the script to execute
 
-`bash
+```bash
 chmod 755 nmap-parser.sh
-`
+```
 
 Execute:
 
-`./nmap-parser.sh <IP_TO_SCANN> <raw_file.raw>`
-
+```bash
+./nmap-parser.sh <IP_TO_SCANN> <raw_file.raw>`
+```
 
 Feel free to use it :)
