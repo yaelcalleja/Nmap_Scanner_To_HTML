@@ -23,6 +23,6 @@ Execute:
 Then the output will answer you if you wan to open the file with firefox.
 In case you say yes the page made by firefox can look like this:
 
-![Html Report Image](.assets/htmlreport.png)
+![Html Report Image](/assets/htmlreport.png)
 
 Feel free to use it :)
