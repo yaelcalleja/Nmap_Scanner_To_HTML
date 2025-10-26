@@ -7,8 +7,14 @@ you have to specify the IP direction to scann and a file name to put all the raw
 
 
 To use it:
-`cd ~/Nmap_Scanner_To_HTML/`
 
+Give permition to the script to execute
+
+`bash
+chmod 755 nmap-parser.sh
+`
+
+Execute:
 
 `./nmap-parser.sh <IP_TO_SCANN> <raw_file.raw>`
 
