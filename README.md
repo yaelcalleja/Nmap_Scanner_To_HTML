@@ -14,7 +14,9 @@ way.
 ## Dependendies
 
 -`nmap`
+
 -`xmlsarlet` (Or any tool for xml files)
+
 -`bash`
 
 
