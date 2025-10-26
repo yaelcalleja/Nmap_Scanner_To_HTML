@@ -1,12 +1,12 @@
 # NMAP SCANNER TO HTML
 
 A bash script to automate the nmap services scanning and transform the XML exit
-to a clean and easy to read HTML report, showing only the open ports and they services
+to a clean and easy to read HTML report, showing up only the open ports and they services
 
 ## The problem to solve:
 
-Nmap is a usefull tool with the power to scann entire networks, but when the info comes
-out, is dificult to read and have some details that usually we dont use to much.
+Nmap it's a usefull tool with the power to scann entire networks, but when the info comes
+out, it's dificult to read and have some details that usually we dont use to much.
 
 There's when this tool comes to help, giving the result of the scann on a more user friendly
 way.
@@ -15,7 +15,7 @@ way.
 
 -`nmap`
 
--`xmlsarlet` (Or any tool for xml files)
+-`xmlstarlet` (Or any tool for xml files)
 
 -`bash`
 
