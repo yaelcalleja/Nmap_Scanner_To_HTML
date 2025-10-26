@@ -20,4 +20,9 @@ Execute:
 ./nmap-parser.sh <IP_TO_SCANN> <raw_file.raw>`
 ```
 
+Then the output will answer you if you wan to open the file with firefox.
+In case you say yes the page made by firefox can look like this:
+
+
+
 Feel free to use it :)
