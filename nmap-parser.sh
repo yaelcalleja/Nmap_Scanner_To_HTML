@@ -49,4 +49,19 @@ echo "[INFO] Generating HTML report"
 source function_html.sh
 # Generating the html file
 generate_html > results_nmap.html 
-echo "[OK] results_nmap.html generated succesfully"
+echo "[OK] Results_nmap.html generated succesfully"
+
+# Removing trash files
+
+echo "[INFO] Removing unnecessary files"
+rm xx*
+
+# Opening the html file with firefox
+
+read -p "Open file with firefox? [y/n]"
+case "$REPLY" in
+    y) firefox ~/Nmap_Scanner_To_HTML/results_nmap.html
+        ;;
+    n) "[OK] Exiting"
+        ;;
+esac
